@@ -1,3 +1,14 @@
+const check1 = document.getElementById("check");
+check1.addEventListener("change",func())
+function func(){
+    if(check1.checked){
+        clear()
+    }
+}
+function clear(){
+    document.getElementById("temp_add").style.display="none"
+    document.getElementById("temp").innerHTML="";
+}
 function validate(){
     let name=document.getElementById("name").value;
     let regno=document.getElementById("regno").value;
@@ -7,8 +18,29 @@ function validate(){
     let temp_add=document.getElementById("temp_add").value;
     let per_add=document.getElementById("per_add").value;
     let phone=document.getElementById("phone").value;
-    if(email_valid(email)){
-        document.write("true")
+    if(!phone_no(phone)){
+        document.write("phone number is invalid<br>")
+    }
+    else{
+        document.write("phone number is valid<br>")
+    }
+    if(!reg_no(regno)){
+        document.write("register number is invalid<br>")
+    }
+    else{
+        document.write("register number is valid<br>")
+    }
+    if(!name_check(name)){
+        document.write("name is invalid<br>")
+    }
+    else{
+        document.write("name is valid<br>")
+    }
+    if(!email_valid(email)){
+        document.write("email is invalid<br>")
+    }
+    else{
+        document.write("email is valid<br>")
     }
 }
 function phone_no(phone){
@@ -26,11 +58,4 @@ function name_check(name){
 function email_valid(email){
     const pattern_regex=/@gmail\.com$/
     return pattern_regex.test(email)
-}
-const check=document.getElementById('check')
-check.addEventListener('change',function()){
-    let temp=document.getElementById("temp_add")
-    if(this.checked){
-        temp.style.display="block"
-    }
 }
