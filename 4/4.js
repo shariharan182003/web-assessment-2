@@ -16,16 +16,16 @@ function phone_no(phone){
     return pattern_regex.test(phone);
 }
 function reg_no(regno){
-    const pattern_regex=/^[a-zA-Z0-9]{9}$/
+    const pattern_regex=/^[a-zA-Z0-9]{9}$/;
     return pattern_regex.test(regno);
 }
 function name_check(name){
-    const pattern_regex=/^[a-zA-Z]{1,30}$/
+    const pattern_regex = /^[a-zA-Z]{1,30}$/;
     return pattern_regex.test(name);
 }
 function email_valid(email){
-    const pattern_regex=/@gmail\.com$/
-    return pattern_regex.test(email)
+    const pattern_regex = /@gmail\.com$/;
+    return pattern_regex.test(email);
 }
 const check=document.getElementById('check')
 check.addEventListener('change',function()){
