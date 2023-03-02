@@ -2,13 +2,13 @@ let check1 = document.getElementById("check");
 
 function func() {
     if (check1.checked) {
-        document.getElementById("temp_add").style.display = "none";
-        document.getElementById("temp").style.display = "none";
+        document.getElementById("temp_add").disabled = "true";
+        let addr = document.getElementById("per_add").value;
+        document.getElementById("temp_add").value=addr;
     }
     else {
-        document.getElementById("temp").style.display = "inline";
-        document.getElementById("temp").innerHTML = "Temporary address:";
-        document.getElementById("temp_add").style.display = "inline";
+        document.getElementById("temp_add").disabled = "false";
+        document.getElementById("temp_add").value = "";
     }
 }
 

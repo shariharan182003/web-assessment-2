@@ -10,8 +10,11 @@ function manipulate() {
     let count = 0;
     for (let index = phArr.length - 1; index >= 0; index--) {
         let src = phArr[index].toLowerCase();
-        let srch = filter.toLowerCase();
-        if (filter != null && src.search(srch) != -1) {
+        let srch;
+        if (filter != "") {
+            srch = filter.toLowerCase();
+        }
+        if (filter != "" && src.search(srch) != -1) {
             count++;
             continue;
         }
