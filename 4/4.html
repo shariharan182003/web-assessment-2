@@ -6,32 +6,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
-    <title>Document</title>
+    <style>
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10%;
+        }
+
+    </style>
+    <title>4</title>
 </head>
 
-<body style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">
+<body
+    style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">
     <form>
-        <label for="name">Name: </label>
-        <input type="text" id="name"><br>
-        <label for="regno">Regno: </label>
-        <input type="text" id="regno"><br>
-        <label for="dob">DOB: </label>
-        <input type="text" id="dob"><br>
-        <label for="program">Program: </label>
-        <input type="text" id="program"><br>
-        <label for="email">Email ID: </label>
-        <input type="text" id="email"><br>
-        <label for="per_add">Permanent address</label>
-        <input type="text" id="per_add"><br>
-        <div id="target">
-            <label for="temp_add" id="temp">Temporary address</label>
-            <input type="text" id="temp_add">
-            <input type="checkbox" id="check" onchange="func()">
-            <label for="check">Same as Permanent address</label>
-        </div>
-        <label for="phone">Phone number: </label>
-        <input type="text" id="phone"><br>
-        <button onclick="validate()">Submit</button>
+        <table>
+            <tr>
+                <td><label for="name">Name: </label></td>
+                <td><input type="text" id="name"></td>
+            </tr>
+            <tr>
+                <td><label for="regno">Regno: </label></td>
+                <td><input type="text" id="regno"></td>
+            </tr>
+            <tr>
+                <td><label for="dob">DOB: </label></td>
+                <td><input type="date" id="dob"></td>
+            </tr>
+            <tr>
+                <td><label for="program">Program: </label></td>
+                <td><input type="text" id="program"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email ID: </label></td>
+                <td><input type="text" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="per_add">Permanent address</label></td>
+                <td><input type="text" id="per_add"></td>
+            </tr>
+            <tr>
+                <td><label for="temp_add" id="temp">Temporary address</label></td>
+                <td><input type="text" id="temp_add"></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="checkb"><input type="checkbox" id="check" onchange="func()">
+                    <label for="check">Same as Permanent address</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone number: </label></td>
+                <td><input type="text" id="phone"></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="butt"><button onclick="validate()">Submit</button></td>
+            </tr>
+        </table>
     </form>
     <script src="4.js"></script>
 </body>
