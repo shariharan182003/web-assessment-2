@@ -23,7 +23,3 @@ function remove() {
     $("li:odd").css('background-color', 'white');
     $("#txtbox").val("");
 }
-
-// document.readyState(function () {
-//     $("li:even").css('background-color', 'yellow');
-// })

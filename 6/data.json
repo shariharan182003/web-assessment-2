@@ -1,0 +1,224 @@
+{
+    "collect":[
+        {
+            "name":"Asif",
+            "dob":"01-08-03",
+            "fathername":"Asif father",
+            "mothername":"Asif mother",
+            "bloodgrp":"o +ve",
+            "email":"asif123@gmail.com",
+            "phone":1234659879,
+            "address":"73, main road, Los angles, USA",
+            "degree":"Btech CSe"
+        },
+        {
+            "name":"madan",
+            "dob":"12-02-06",
+            "fathername":"father",
+            "mothername":"mother",
+            "bloodgrp":"b -ve",
+            "email":"madan123@gmail.com",
+            "phone":4898463514,
+            "address":"02, web street, Vellore, Tamil nadu, India",
+            "degree":"Btech Mech"
+        },
+        {
+            "name":"Aswin",
+            "dob":"15-06-05",
+            "fathername":"aswin father",
+            "mothername":"aswin mother",
+            "bloodgrp":"A +ve",
+            "email":"aswin123@gmail.com",
+            "phone":9846357967,
+            "address":"23, Dbms road, Kerala, India",
+            "degree":"Bsc computer sci"
+        },
+        {
+            "name":"3rd",
+            "dob":"01-01-01",
+            "fathername":"father",
+            "mothername":"mother",
+            "bloodgrp":"o -ve",
+            "email":"3rd123@gmail.com",
+            "phone":9845379862,
+            "address":"39, 1st street, Chennai, India",
+            "degree":"Hotel management"
+        },
+        {
+            "name":"4th",
+            "dob":"05-08-05",
+            "fathername":"father",
+            "mothername":"mother",
+            "bloodgrp":"ab +ve",
+            "email":"4th123@gmail.com",
+            "phone":4985357912,
+            "address":"238, 19th street, Delhi, India",
+            "degree":"Marine engineering"
+        },
+        {
+            "name":"6th",
+            "dob":"14-12-08",
+            "fathername":"father",
+            "mothername":"mother",
+            "bloodgrp":"a +ve",
+            "email":"6th123@gmail.com",
+            "phone":68949987654,
+            "address":"93, 21th street, Beijing, China",
+            "degree":"Food management"
+        },
+        {
+            "name":"7th",
+            "dob":"15-12-12",
+            "fathername":"father",
+            "mothername":"mother",
+            "bloodgrp":"a +ve",
+            "email":"7th123@gmail.com",
+            "phone":3987532498,
+            "address":"328, 12th street, Holland, USA",
+            "degree":"Automobile designing"
+        },
+        {
+            "name":"8th",
+            "dob":"16-08-08",
+            "fathername":"father",
+            "mothername":"mother",
+            "bloodgrp":"o +ve",
+            "email":"8th123@gmail.com",
+            "phone":7846598715,
+            "address":"93, 18th street, Vellore, Tamilnadu, India",
+            "degree":"Btech IT"
+        },
+        {
+            "name":"9th",
+            "dob":"09-09-09",
+            "fathername":"father",
+            "mothername":"mother",
+            "bloodgrp":"a +ve",
+            "email":"9th123@gmail.com",
+            "phone":9876512345,
+            "address":"83, 82rd street, Melbourn, Italy",
+            "degree":"Software engineer"
+        },
+        {
+            "name":"10th",
+            "dob":"10-10-10",
+            "fathername":"father",
+            "mothername":"mother",
+            "bloodgrp":"b -ve",
+            "email":"10th123@gmail.com",
+            "phone":9874335765,
+            "address":"No 16, 16th street, Vallalar, USA",
+            "degree":"Btech Fashion desinging"
+        },
+        {
+            "name":"11th",
+            "dob":"11-11-11",
+            "fathername":"father",
+            "mothername":"mother",
+            "bloodgrp":"b -ve",
+            "email":"11th123@gmail.com",
+            "phone":9874335765,
+            "address":"No 16, 16th street, Vallalar, USA",
+            "degree":"Btech Fashion desinging"
+        },
+        {
+            "name":"12th",
+            "dob":"12-12-09",
+            "fathername":"father",
+            "mothername":"mother",
+            "bloodgrp":"a +ve",
+            "email":"12th123@gmail.com",
+            "phone":9876512345,
+            "address":"83, 82rd street, Melbourn, Italy",
+            "degree":"Software engineer"
+        },
+        {
+            "name":"13th",
+            "dob":"16-08-08",
+            "fathername":"father",
+            "mothername":"mother",
+            "bloodgrp":"o +ve",
+            "email":"13th123@gmail.com",
+            "phone":7846598715,
+            "address":"93, 18th street, Vellore, Tamilnadu, India",
+            "degree":"Btech IT"
+        },
+        {
+            "name":"14th",
+            "dob":"15-12-12",
+            "fathername":"father",
+            "mothername":"mother",
+            "bloodgrp":"a +ve",
+            "email":"14th123@gmail.com",
+            "phone":3987532498,
+            "address":"328, 12th street, Holland, USA",
+            "degree":"Automobile designing"
+        },
+        {
+            "name":"15th",
+            "dob":"14-12-08",
+            "fathername":"father",
+            "mothername":"mother",
+            "bloodgrp":"a +ve",
+            "email":"15th123@gmail.com",
+            "phone":68949987654,
+            "address":"93, 21th street, Beijing, China",
+            "degree":"Food management"
+        },
+        {
+            "name":"16th",
+            "dob":"05-08-05",
+            "fathername":"father",
+            "mothername":"mother",
+            "bloodgrp":"ab +ve",
+            "email":"16th123@gmail.com",
+            "phone":4985357912,
+            "address":"238, 19th street, Delhi, India",
+            "degree":"Marine engineering"
+        },
+        {
+            "name":"17th",
+            "dob":"01-01-01",
+            "fathername":"father",
+            "mothername":"mother",
+            "bloodgrp":"o -ve",
+            "email":"17th123@gmail.com",
+            "phone":9845379862,
+            "address":"39, 1st street, Chennai, India",
+            "degree":"Hotel management"
+        },
+        {
+            "name":"18th",
+            "dob":"01-01-01",
+            "fathername":"father",
+            "mothername":"mother",
+            "bloodgrp":"o -ve",
+            "email":"18th123@gmail.com",
+            "phone":9845379862,
+            "address":"39, 1st street, Chennai, India",
+            "degree":"Hotel management"
+        },
+        {
+            "name":"19th",
+            "dob":"01-08-03",
+            "fathername":"father",
+            "mothername":"mother",
+            "bloodgrp":"o +ve",
+            "email":"19th123@gmail.com",
+            "phone":1234659879,
+            "address":"73, main road, Los angles, USA",
+            "degree":"Btech CSe"
+        },
+        {
+            "name":"20th",
+            "dob":"12-02-06",
+            "fathername":"father",
+            "mothername":"mother",
+            "bloodgrp":"b -ve",
+            "email":"20th123@gmail.com",
+            "phone":4898463514,
+            "address":"02, web street, Vellore, Tamil nadu, India",
+            "degree":"Btech Mech"
+        }
+    ]
+}
