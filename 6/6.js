@@ -1,6 +1,6 @@
 collection()
 function process(obj){
-    document.getElementById("table").innerHTML="<tr>"
+    
 }
 function collection(){
     const jsonFilePath = 'data.json';
